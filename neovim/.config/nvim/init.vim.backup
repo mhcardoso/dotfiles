@@ -1,0 +1,18 @@
+call plug#begin('~/.nvim/plugged')
+
+Plug 'dylanaraps/wal'
+Plug 'tpope/vim-fugitive'
+Plug 'lervag/vimtex'
+Plug 'scrooloose/nerdtree'
+Plug 'scrooloose/syntastic'
+
+call plug#end()
+
+colorscheme wal
+syntax enable
+set number
+set expandtab
+set shiftwidth=2
+set softtabstop=2
+
+let g:vimtex_view_method = 'zathura'
